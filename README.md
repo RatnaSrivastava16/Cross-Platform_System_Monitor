@@ -120,9 +120,20 @@ Payload format:
 
 ---
 
-## How to Run
+## How to Build and Run
+
+### Prerequisites
+- .NET SDK 6.0 or later installed
+- Visual Studio 2022 or VS Code (optional)
+
+---
+
+### Clone the Repository
+#### git clone https://github.com/RatnaSrivastava16/Cross-Platform_System_Monitor.git
+#### cd Cross-Platform_System_Monitor
 
 ### Build
+#### Open the project(.sln) in Visual Studio
 #### ctrl+shift+B
 
 ### Run
