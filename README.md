@@ -26,8 +26,8 @@ The application is designed to be extensible and cross-platform, with platform-s
 
 Cross-Platform-System-Monitor
 │                                                                                                                                                                                                                   
-├── Core
-│   ├── Interfaces
+├── Core                                                                                                                                                                                                            
+│   ├── Interfaces                                                                                                                                                                                                  
 │   │   ├── IPlatformMetricsProvider
 │   │   ├── IMonitorPlugin
 │   ├── Models
