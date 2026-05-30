@@ -31,7 +31,7 @@ namespace Cross_Platform_System_Monitor.Infrastructure.Monitoring
 
             // Disk Info
             DriveInfo drive = DriveInfo.GetDrives()
-                .FirstOrDefault(d => d.IsReady && d.Name == "C:\\");
+                .FirstOrDefault(d => d.IsReady);
 
             double totalDisk = drive.TotalSize / (1024.0 * 1024.0 * 1024.0);
 
