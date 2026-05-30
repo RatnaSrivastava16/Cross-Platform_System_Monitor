@@ -31,13 +31,13 @@ Cross-Platform-System-Monitor
 │   │   ├── IPlatformMetricsProvider                                                                                                                                                                                
 │   │   ├── IMonitorPlugin                                                                                                                                                                                          
 │   ├── Models                                                                                                                                                                                                      
-│
-├── Infrastructure
-│   ├── Monitoring
-│   │   ├── WindowsMetricsProvider
-│   ├── Plugins
-│   │   ├── FileLoggerPlugin
-│   │   ├── ApiPlugin
+│                                                                                                                                                                                                                   
+├── Infrastructure                                                                                                                                                                                                  
+│   ├── Monitoring                                                                                                                                                                                                  
+│   │   ├── WindowsMetricsProvider                                                                                                                                                                                  
+│   ├── Plugins                                                                                                                                                                                                     
+│   │   ├── FileLoggerPlugin                                                                                                                                                                                        
+│   │   ├── ApiPlugin                                                                                                                                                                                               
 │
 ├── Services
 │   │   ├── MonitorServices
