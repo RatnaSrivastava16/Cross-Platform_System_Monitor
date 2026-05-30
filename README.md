@@ -129,8 +129,8 @@ Payload format:
 ---
 
 ### Clone the Repository
-#### git clone https://github.com/RatnaSrivastava16/Cross-Platform_System_Monitor.git
-#### cd Cross-Platform_System_Monitor
+- git clone https://github.com/RatnaSrivastava16/Cross-Platform_System_Monitor.git
+- cd Cross-Platform_System_Monitor
 
 ### Build
 #### Open the project(.sln) in Visual Studio
