@@ -71,7 +71,7 @@ Cross-Platform-System-Monitor
 
 ### appsettings.json
 
-{
+####{
   "Monitoring": {
     "IntervalSeconds": 5
   },
