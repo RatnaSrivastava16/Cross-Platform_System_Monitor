@@ -93,7 +93,7 @@ Cross-Platform-System-Monitor
 
 - Sends system metrics to a REST API endpoint using HTTP POST.
 
-Payload format:
+- Payload format:
 {
   "cpu": 45.5,
   "ram_used": 1200,
