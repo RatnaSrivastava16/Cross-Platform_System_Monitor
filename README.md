@@ -71,7 +71,7 @@ Cross-Platform-System-Monitor
 
 ### appsettings.json                                                                                                                                                                                                
 
-{
+- {
   "Monitoring": {
     "IntervalSeconds": 5
   },
@@ -85,13 +85,13 @@ Cross-Platform-System-Monitor
 
 ### File Logger Plugin                                                                
 
-###Logs system metrics into a local file:
+- Logs system metrics into a local file:
 
 ---
 
 ### API Plugin
 
-#### Sends system metrics to a REST API endpoint using HTTP POST.
+- Sends system metrics to a REST API endpoint using HTTP POST.
 
 Payload format:
 {
@@ -105,20 +105,19 @@ Payload format:
 
 #### System monitoring is abstracted using:
 
-* `IPlatformMetricsProvider`
+- `IPlatformMetricsProvider`
 
 ### Current Implementation
 
-* WindowsMetricsProvider (uses PerformanceCounter)
+- WindowsMetricsProvider (uses PerformanceCounter)
 
 ### Future Support
 
-* Linux (/proc filesystem)
-* macOS (sysctl APIs)
+- Linux (/proc filesystem)
+- macOS (sysctl APIs)
 
-#### This ensures the core logic remains unchanged when adding new platforms.
+- This ensures the core logic remains unchanged when adding new platforms.
 
----
 
 ## How to Build and Run
 
