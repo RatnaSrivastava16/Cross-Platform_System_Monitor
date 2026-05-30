@@ -38,16 +38,16 @@ Cross-Platform-System-Monitor
 │   ├── Plugins                                                                                                                                                                                                     
 │   │   ├── FileLoggerPlugin                                                                                                                                                                                        
 │   │   ├── ApiPlugin                                                                                                                                                                                               
-│
-├── Services
-│   │   ├── MonitorServices
-│
-├── Config
-│   ├── ApiSettings
-│   ├── MonitoringSettings
-│
-├── Program.cs
-├── appsettings.json
+│                                                                                                                                                                                                                   
+├── Services                                                                                                                                                                                                        
+│   │   ├── MonitorServices                                                                                                                                                                                         
+│                                                                                                                                                                                                                   
+├── Config                                                                                                                                                                                                          
+│   ├── ApiSettings                                                                                                                                                                                                 
+│   ├── MonitoringSettings                                                                                                                                                                                          
+│                                                                                                                                                                                                                   
+├── Program.cs                                                                                                                                                                                                      
+├── appsettings.json                                                                                                                                                                                                  
 
 ---
 
