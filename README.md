@@ -133,11 +133,11 @@ Payload format:
 - cd Cross-Platform_System_Monitor
 
 ### Build
-#### Open the project(.sln) in Visual Studio
-#### ctrl+shift+B
+- Open the project(.sln) in Visual Studio
+- ctrl+shift+B
 
 ### Run
-#### ctrl+f5
+- ctrl+f5
 
 ## Design Decisions
 
