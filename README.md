@@ -28,9 +28,9 @@ Cross-Platform-System-Monitor
 │                                                                                                                                                                                                                   
 ├── Core                                                                                                                                                                                                            
 │   ├── Interfaces                                                                                                                                                                                                  
-│   │   ├── IPlatformMetricsProvider
-│   │   ├── IMonitorPlugin
-│   ├── Models
+│   │   ├── IPlatformMetricsProvider                                                                                                                                                                                
+│   │   ├── IMonitorPlugin                                                                                                                                                                                          
+│   ├── Models                                                                                                                                                                                                      
 │
 ├── Infrastructure
 │   ├── Monitoring
