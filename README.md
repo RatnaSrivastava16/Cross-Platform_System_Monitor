@@ -69,29 +69,29 @@ Cross-Platform-System-Monitor
 
 ## Configuration
 
-### appsettings.json
+### appsettings.json                                                                                                                                                                                                
 
-####{
+{
   "Monitoring": {
     "IntervalSeconds": 5
   },
   "ApiSettings": {
-    "Endpoint": "https://your-api-endpoint.com"
+    "Endpoint": "-"
   }
 }
 ---
 
 ## Plugins
 
-### File Logger Plugin
+### File Logger Plugin                                                                
 
-Logs system metrics into a local file:
+###Logs system metrics into a local file:
 
 ---
 
 ### API Plugin
 
-Sends system metrics to a REST API endpoint using HTTP POST.
+#### Sends system metrics to a REST API endpoint using HTTP POST.
 
 Payload format:
 {
@@ -103,7 +103,7 @@ Payload format:
 
 ## Cross-Platform Design
 
-System monitoring is abstracted using:
+#### System monitoring is abstracted using:
 
 * `IPlatformMetricsProvider`
 
@@ -116,17 +116,17 @@ System monitoring is abstracted using:
 * Linux (/proc filesystem)
 * macOS (sysctl APIs)
 
-This ensures the core logic remains unchanged when adding new platforms.
+#### This ensures the core logic remains unchanged when adding new platforms.
 
 ---
 
 ## How to Run
 
 ### Build
-ctrl+shift+B
+#### ctrl+shift+B
 
 ### Run
-ctrl+f5
+#### ctrl+f5
 
 ## Design Decisions
 
@@ -154,5 +154,3 @@ ctrl+f5
 * Improve API plugin with retry mechanism (Polly)
 * Build a real-time dashboard (WPF / Blazor)
 
-- or :contentReference[oaicite:2]{index=2} 🚀
-```
