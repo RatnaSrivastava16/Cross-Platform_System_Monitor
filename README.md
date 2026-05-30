@@ -25,7 +25,7 @@ The application is designed to be extensible and cross-platform, with platform-s
 ## Project Architecture
 
 Cross-Platform-System-Monitor
-│
+│                                                                                                                                                                                                                   
 ├── Core
 │   ├── Interfaces
 │   │   ├── IPlatformMetricsProvider
